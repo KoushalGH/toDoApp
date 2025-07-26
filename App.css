@@ -1,0 +1,90 @@
+.ipt-field{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 2px;
+    border: 0px solid white;
+    border-radius: 18px;
+}
+body{
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: aliceblue;
+    list-style: none;
+}
+.btn{
+    background: linear-gradient(to right,blue,purple,blue);
+    color: white;
+    border: 0px solid white;
+    border-radius: 14px;
+    margin-left: 8px;
+    width: 88px;
+    height: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.btn:hover{
+    background: linear-gradient(to right,brown,wheat);
+    font-weight: bolder;
+}
+.list{
+    list-style-type: none;
+}
+.arr{
+    color: white;
+    border: 0px solid white;
+    border-radius: 14px;
+    margin-left: 4px;
+    width: 48px;
+    height: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    background-color: hsl(0, 0%, 100%);
+}
+.del{
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+    border: 0px solid white;
+    border-radius: 14px;
+    margin-left:300px;
+    width: 88px;
+    height: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 37%);
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ol{
+    padding: 0;
+    text-align: center;
+}
+.text{
+    flex: 1;
+}
+.del:hover{
+    background-color: hsl(0, 100%, 41%);
+}
+.arr:hover{
+    background-color: hsl(0, 0%, 92%)
+}
